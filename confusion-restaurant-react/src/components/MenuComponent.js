@@ -33,6 +33,10 @@ class Menu extends Component {
         }
     }
 
+    componentDidMount() {
+        console.log("It's working in the end of the web");
+    }
+
     render() {
         const menu = this.props.dishes.map((dish)=>{
             return(
